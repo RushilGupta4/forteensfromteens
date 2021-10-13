@@ -1,0 +1,27 @@
+.container {
+    position: absolute;
+    top: 0.33vh;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.listContainer {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.listContainer li {
+    margin: 0 0.7vw;
+}
+
+.listContainer li:last-child {
+    margin-right: 1.15vw;
+}
+
+.listContainer li:first-child {
+    align-self: flex-start;
+}

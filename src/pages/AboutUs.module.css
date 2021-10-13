@@ -1,0 +1,66 @@
+.title {
+    font-size: 12.25vh;
+    text-align: center;
+    color: var(--text-header-color);
+    font-family: var(--text-header-font);
+    transition: 0.2s;
+    margin-top: 10vh;
+}
+
+.subHeading {
+    font-size: 3rem;
+    font-family: var(--text-subheader-font);
+    font-style: italic;
+    margin: 1vh;
+    color: var(--text-subheader-color);
+    padding: 0 5vw;
+    border-bottom: 0.5vh solid #e3e3e3;
+}
+
+.content {
+    font-size: 2.25vh;
+    font-family: var(--text-content-font);
+    margin: 0.75vh 7.5vw 0.25vh 7.5vw;
+    color: var(--text-content-color);
+}
+
+.mainContainer {
+    transition: opacity 850ms;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 17vw;
+    margin-bottom: 5vh;
+}
+
+.titleContainer {
+    display: inline-flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--text-subheader-color);
+}
+
+.img {
+    width: 75%;
+    height: auto;
+    border: 0.25vh solid var(--text-content-color);
+    border-radius: 2vh;
+    margin-bottom: 5vh;
+}
+
+.containerHolder {
+    margin-bottom: 10vh;
+}
+
+img {
+    width: 75%;
+    height: auto;
+    border: 0.25vh solid var(--text-content-color);
+    border-radius: 2vh;
+    margin-bottom: 5vh;
+}

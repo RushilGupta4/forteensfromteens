@@ -1,0 +1,27 @@
+.titleContainer {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 12.25vh;
+    text-align: center;
+    color: var(--text-header-color);
+    font-family: var(--text-header-font);
+    transition: 0.2s;
+}
+
+.socialButtons {
+    position: absolute;
+    margin-top: 70vh;
+}
+
+.socialButtonImg {
+    width: 4vw;
+    height: auto;
+    border-radius: 2.2vh;
+    margin: 0 1vw 0 1vw;
+}

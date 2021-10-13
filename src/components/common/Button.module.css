@@ -1,0 +1,30 @@
+.button {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2vh;
+  padding: 1.7vh;
+  border-radius: 1.75vh;
+  font-family: var(--text-subheader-font);
+  font-style: italic;
+  font-weight: 700;
+  transition: 0.35s;
+}
+
+.buttonPrimary {
+  background-color: var(--text-header-color);
+  color: #383838;
+}
+
+.buttonPrimary:hover {
+  background-color: #cccccc;
+}
+
+.buttonSecondary {
+  background-color: rgba(0, 0, 0, 0);
+  color: var(--text-header-color);
+}
+
+.buttonSecondary:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
