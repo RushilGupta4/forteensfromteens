@@ -2,8 +2,8 @@ import Homepage from "./pages/Homepage";
 import TheProblem from "./pages/TheProblem";
 import AboutUs from "./pages/AboutUs";
 import Collaborations from "./pages/Collaborations";
-import github from "./static/images/github.png"
 import instagram from "./static/images/instagram.png"
+import youtube from "./static/images/youtube.png"
 import aboutUsWhoAreWe from "./static/images/about_us_who_are_we.jpeg"
 import aboutUsOurGoal from "./static/images/about_us_our_goal.jpeg"
 
@@ -33,12 +33,12 @@ export const homepageRoutesData = [
 
 export const homepageSocialButtonsData = [
     {
-        url: "https://github.com/Ruzil357/",
-        img: github,
-    },
-    {
         url: "https://www.instagram.com/fromteens_forteens/",
         img: instagram,
+    },
+    {
+        url: "https://www.youtube.com/channel/UCRQnWHF0KbG55xfe3fDKMTA",
+        img: youtube,
     },
 ]
 

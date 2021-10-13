@@ -21,7 +21,7 @@ function Homepage() {
             <div className={styles.socialButtons}>
                 {
                     homepageSocialButtonsData.map(x =>
-                        <a href={x.url} key={x.img} rel={"noopener noreferrer nofollow"}>
+                        <a href={x.url} key={x.img} rel={"noopener noreferrer nofollow"} target={"_blank"}>
                             <img className={styles.socialButtonImg} src={x.img} alt={x.url}/>
                         </a>
                     )
