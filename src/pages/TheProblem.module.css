@@ -72,3 +72,17 @@
 .mainContainer {
     margin-bottom: 6rem;
 }
+
+
+.symptoms {
+    align-items: start;
+    align-self: flex-start;
+    margin-left: 7.5vw;
+}
+
+
+.symptom {
+    font-size: 2.25vh;
+    font-family: var(--text-content-font);
+    color: var(--text-content-color);
+}

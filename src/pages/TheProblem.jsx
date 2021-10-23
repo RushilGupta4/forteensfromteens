@@ -36,12 +36,20 @@ function TheProblem(props) {
                         <VisibilitySensor key={x.title}>
                             {({isVisible}) => (
                                 <Card className={isVisible ? styles.dataContainerFadeIn : styles.dataContainerFadeOut}
-                                     key={x.title}>
+                                      key={x.title}>
                                     <p className={styles.subHeading}>{x.title}</p>
                                     <p className={styles.content}>{x.content}</p>
                                     {
                                         x.picture_path && <img className={styles.img} src={x.picture_path}
                                                                alt="Featured NGO"/>
+                                    }
+                                    {
+                                        x.symptoms &&
+
+                                        <ul className={styles.symptoms}>
+                                            {x.symptoms.map(symptom =>
+                                                <li className={styles.symptom}>{symptom}</li>)}
+                                        </ul>
                                     }
                                 </Card>
                             )}

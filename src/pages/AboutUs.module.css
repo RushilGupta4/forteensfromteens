@@ -20,7 +20,7 @@
 .content {
     font-size: 2.25vh;
     font-family: var(--text-content-font);
-    margin: 0.75vh 7.5vw 0.25vh 7.5vw;
+    margin: 0.75vh 7.5vw 2vh 7.5vw;
     color: var(--text-content-color);
 }
 
