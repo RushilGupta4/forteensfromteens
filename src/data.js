@@ -2,7 +2,7 @@
 import Homepage from "./pages/Homepage";
 import TheProblem from "./pages/TheProblem";
 import AboutUs from "./pages/AboutUs";
-import Collaborations from "./pages/Collaborations";
+//import Collaborations from "./pages/Collaborations";
 import instagram from "./static/images/instagram.png"
 import youtube from "./static/images/youtube.png"
 import aboutUsWhoAreWe from "./static/images/about_us_who_are_we.jpeg"
@@ -27,12 +27,12 @@ export const homepageRoutesData = [
         route: "the-problem",
         component: TheProblem,
     },
-    {
-        text: "Collaborations",
-        route: "collaborations",
-        component: Collaborations,
-        highlighted: true,
-    }
+    //{
+    //    text: "Collaborations",
+    //    route: "collaborations",
+    //    component: Collaborations,
+    //   highlighted: true,
+    //},
 ]
 
 export const homepageSocialButtonsData = [
